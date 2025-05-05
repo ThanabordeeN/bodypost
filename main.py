@@ -67,11 +67,7 @@ def process_frame(frame, controller, fps_counter):
                     
                     # Start the game
                     controller.start_game(left_y, right_y, frame_height)
-                # else:
-                    # Resume game after character death
-                    # controller.press_space()
-                
-                # controller.reset_counter()
+
         else:
             controller.reset_counter()
     else:
