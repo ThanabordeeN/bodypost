@@ -86,7 +86,7 @@ def main():
     camera_video = setup_camera()
     
     # Create named window for resizing
-    cv2.namedWindow('Body Pose Game Controller', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('Tiktok Scroller', cv2.WINDOW_NORMAL)
     
     # Initialize game controller and FPS counter
     controller = GameController()
